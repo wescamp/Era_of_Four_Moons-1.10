@@ -910,7 +910,7 @@ msgstr ""
 #: Era_of_Four_Moons/units/Darklanders/c1_Beastman.cfg:18
 msgid ""
 "The beastmen are a particularly savage breed of darklander warriors who "
-"fight with incredible strength and fur_ITy however their style is reckless and "
+"fight with incredible strength and fury however their style is reckless and "
 "not overly skilled."
 msgstr ""
 
@@ -1045,7 +1045,7 @@ msgstr ""
 #: Era_of_Four_Moons/units/Darklanders/f1_Malice.cfg:35
 #: Era_of_Four_Moons/units/Darklanders/f3_Vengence.cfg:30
 #: Era_of_Four_Moons/units/Darklanders/f4_Judgement.cfg:31
-msgid "fur_ITy"
+msgid "fury"
 msgstr ""
 
 #. [unit_type]: id=EFM_Wrath, race=EFMdarklander
