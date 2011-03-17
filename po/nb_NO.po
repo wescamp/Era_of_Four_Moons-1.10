@@ -1118,7 +1118,7 @@ msgstr ""
 #: Era_of_Four_Moons/units/Freemen/e3_Sheik.cfg:33
 #: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:32
 #: Era_of_Four_Moons/units/Freemen/b3_Immortal.cfg:30
-#: Era_of_Four_Moons/units/Freemen/c3_Zunb_NOooruch.cfg:27
+#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:27
 #: Era_of_Four_Moons/units/Freemen/b2_Dervish.cfg:29
 #: Era_of_Four_Moons/units/Freemen/a2_Amir.cfg:31
 #: Era_of_Four_Moons/units/Freemen/a3_Caliph.cfg:32
@@ -1314,15 +1314,15 @@ msgid ""
 "freemen know them to be true."
 msgstr ""
 
-#. [unit_type]: id=EFM_Zunb_NOooruch, race=EFMfreeman
-#: Era_of_Four_Moons/units/Freemen/c3_Zunb_NOooruch.cfg:5
-msgid "Zunb_NOooruch"
+#. [unit_type]: id=EFM_Zunbooruch, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:5
+msgid "Zunbooruch"
 msgstr ""
 
-#. [unit_type]: id=EFM_Zunb_NOooruch, race=EFMfreeman
-#: Era_of_Four_Moons/units/Freemen/c3_Zunb_NOooruch.cfg:19
+#. [unit_type]: id=EFM_Zunbooruch, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:19
 msgid ""
-"Zunb_NOooruch was a mehariste officer who famously sniped the enemies sultan "
+"Zunbooruch was a mehariste officer who famously sniped the enemies sultan "
 "from his camel mount at a range of a hundred yards with a crossbow after "
 "calling the shot. Since then whenever a successful mehariste has saved up "
 "enough for a crossbow (very expensive purchase in the freelands) people will "
@@ -1334,7 +1334,7 @@ msgstr ""
 #: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:48
 #: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:48
 #: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:38
-#: Era_of_Four_Moons/units/Freemen/c3_Zunb_NOooruch.cfg:36
+#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:36
 msgid "crossbow"
 msgstr ""
 
