@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-04-12 14:26+0200\n"
+"POT-Creation-Date: 2011-09-28 07:43-0400\n"
 "PO-Revision-Date: 2011-02-21 15:35+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -33,10 +33,10 @@ msgstr "Era of Four Moons"
 msgid "EoFM + default"
 msgstr "EoFM + default"
 
-#. [language]
 #. [resistance]: id=ability_artillery
-#: Era_of_Four_Moons/_main.cfg:13 Era_of_Four_Moons/macros/abilities.cfg:52
-#: Era_of_Four_Moons/macros/abilities.cfg:54
+#. [language]
+#: Era_of_Four_Moons/macros/abilities.cfg:52
+#: Era_of_Four_Moons/macros/abilities.cfg:54 Era_of_Four_Moons/_main.cfg:13
 msgid "artillery"
 msgstr "artillery"
 
@@ -64,24 +64,24 @@ msgstr "Dalefolk"
 msgid "Darklanders"
 msgstr "Darklanders"
 
-#. [multiplayer_side]: id=CFM_Freemen, type=EFM_Sultan
 #. [multiplayer_side]: id=EFM_Freemen, type=EFM_Amir
-#: Era_of_Four_Moons/factions/Freemen-CFM.cfg:5
+#. [multiplayer_side]: id=CFM_Freemen, type=EFM_Sultan
 #: Era_of_Four_Moons/factions/Freemen-EFM.cfg:5
+#: Era_of_Four_Moons/factions/Freemen-CFM.cfg:5
 msgid "Freemen"
 msgstr "Freemen"
 
-#. [multiplayer_side]: id=CFM_Highlanders, type=EFM_HighlanderChief
 #. [multiplayer_side]: id=EFM_Highlanders, type=EFM_HighlanderWarrior
-#: Era_of_Four_Moons/factions/Highlanders-CFM.cfg:5
+#. [multiplayer_side]: id=CFM_Highlanders, type=EFM_HighlanderChief
 #: Era_of_Four_Moons/factions/Highlanders-EFM.cfg:5
+#: Era_of_Four_Moons/factions/Highlanders-CFM.cfg:5
 msgid "Highlanders"
 msgstr "Highlanders"
 
-#. [multiplayer_side]: id=CFM_Imperialists, type=EFM_Primus
 #. [multiplayer_side]: id=EFM_Imperialists, type=EFM_Centurion
-#: Era_of_Four_Moons/factions/Imperialists-CFM.cfg:5
+#. [multiplayer_side]: id=CFM_Imperialists, type=EFM_Primus
 #: Era_of_Four_Moons/factions/Imperialists-EFM.cfg:5
+#: Era_of_Four_Moons/factions/Imperialists-CFM.cfg:5
 msgid "Imperialists"
 msgstr "Imperialists"
 
@@ -92,17 +92,17 @@ msgstr "Imperialists"
 msgid "Pygmies"
 msgstr "Pygmies"
 
-#. [multiplayer_side]: id=CFM_SeaStates, type=EFM_MerchantLord
 #. [multiplayer_side]: id=EFM_SeaStates, type=EFM_GuildOfficer
-#: Era_of_Four_Moons/factions/SeaStates-CFM.cfg:5
+#. [multiplayer_side]: id=CFM_SeaStates, type=EFM_MerchantLord
 #: Era_of_Four_Moons/factions/SeaStates-EFM.cfg:5
+#: Era_of_Four_Moons/factions/SeaStates-CFM.cfg:5
 msgid "Sea States"
 msgstr "Sea States"
 
-#. [multiplayer_side]: id=EFM_Whites, type=EFM_HouseCarl
 #. [multiplayer_side]: id=CFM_Whites, type=EFM_Thane
-#: Era_of_Four_Moons/factions/Whites-EFM.cfg:5
+#. [multiplayer_side]: id=EFM_Whites, type=EFM_HouseCarl
 #: Era_of_Four_Moons/factions/Whites-CFM.cfg:5
+#: Era_of_Four_Moons/factions/Whites-EFM.cfg:5
 msgid "Whiteies"
 msgstr "Whiteies"
 
@@ -198,13 +198,28 @@ msgstr ""
 "Standard:\n"
 "Allies adjacent to a unit with this ability add 20% to all resistances."
 
+#. [damage]: id=special_efm_dauntless
+#: Era_of_Four_Moons/macros/abilities.cfg:86
+#: Era_of_Four_Moons/macros/abilities.cfg:89
+msgid "dauntless"
+msgstr ""
+
+#. [damage]: id=special_efm_dauntless
+#: Era_of_Four_Moons/macros/abilities.cfg:88
+#: Era_of_Four_Moons/macros/abilities.cfg:91
+msgid ""
+"Dauntless:\n"
+"This units fearless ferocity makes it difficult to retaliate against "
+"effective. Takes 25% less retaliation when on offense."
+msgstr ""
+
 #. [regenerate]: id=selfheal
-#: Era_of_Four_Moons/macros/abilities.cfg:87
+#: Era_of_Four_Moons/macros/abilities.cfg:102
 msgid "self-heal"
 msgstr "self-heal"
 
 #. [regenerate]: id=selfheal
-#: Era_of_Four_Moons/macros/abilities.cfg:89
+#: Era_of_Four_Moons/macros/abilities.cfg:104
 msgid ""
 "Self-heal:\n"
 "The unit will slow the effects of poison on itself or regenerate four "
@@ -215,12 +230,12 @@ msgstr ""
 "hitpoints per turn."
 
 #. [attacks]: id=weapon_special_trample
-#: Era_of_Four_Moons/macros/abilities.cfg:98
+#: Era_of_Four_Moons/macros/abilities.cfg:113
 msgid "trample"
 msgstr "trample"
 
 #. [attacks]: id=weapon_special_trample
-#: Era_of_Four_Moons/macros/abilities.cfg:99
+#: Era_of_Four_Moons/macros/abilities.cfg:114
 msgid ""
 "On offense units with trample will gain two extra strikes and if they kill "
 "they will move into the hex of the unit they killed."
@@ -229,14 +244,14 @@ msgstr ""
 "they will move into the hex of the unit they killed."
 
 #. [unit_type]: id=EFM_Sapper, race=EFMimperialists
+#: Era_of_Four_Moons/macros/abilities.cfg:192
+#: Era_of_Four_Moons/macros/abilities.cfg:193
 #: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:5
-#: Era_of_Four_Moons/macros/abilities.cfg:177
-#: Era_of_Four_Moons/macros/abilities.cfg:178
 msgid "Sapper"
 msgstr "Sapper"
 
-#: Era_of_Four_Moons/macros/abilities.cfg:180
-#: Era_of_Four_Moons/macros/abilities.cfg:182
+#: Era_of_Four_Moons/macros/abilities.cfg:195
+#: Era_of_Four_Moons/macros/abilities.cfg:197
 msgid ""
 "Sapper :\n"
 "This attack automatically hits. It reduces the targets hp by a percentage "
@@ -246,11 +261,11 @@ msgstr ""
 "This attack automatically hits. It reduces the targets hp by a percentage "
 "equal to his current defense. The sapper dies when it uses this attack."
 
-#: Era_of_Four_Moons/macros/abilities.cfg:192
+#: Era_of_Four_Moons/macros/abilities.cfg:207
 msgid "heal+3"
 msgstr "heal+3"
 
-#: Era_of_Four_Moons/macros/abilities.cfg:194
+#: Era_of_Four_Moons/macros/abilities.cfg:209
 msgid ""
 "Heal+3:\n"
 "This unit will heal allies by 3 hp at the start of it's turn. Will slow "
@@ -260,13 +275,13 @@ msgstr ""
 "This unit will heal allies by 3 hp at the start of it's turn. Will slow "
 "poison."
 
-#: Era_of_Four_Moons/macros/abilities.cfg:212
-#: Era_of_Four_Moons/macros/abilities.cfg:215
+#: Era_of_Four_Moons/macros/abilities.cfg:227
+#: Era_of_Four_Moons/macros/abilities.cfg:230
 msgid "foresthome"
 msgstr "foresthome"
 
-#: Era_of_Four_Moons/macros/abilities.cfg:214
-#: Era_of_Four_Moons/macros/abilities.cfg:217
+#: Era_of_Four_Moons/macros/abilities.cfg:229
+#: Era_of_Four_Moons/macros/abilities.cfg:232
 msgid ""
 "Foresthome:\n"
 "This unit will regenerate 3 hp when in forest."
@@ -274,13 +289,13 @@ msgstr ""
 "Foresthome:\n"
 "This unit will regenerate 3 hp when in forest."
 
-#: Era_of_Four_Moons/macros/abilities.cfg:231
-#: Era_of_Four_Moons/macros/abilities.cfg:234
+#: Era_of_Four_Moons/macros/abilities.cfg:246
+#: Era_of_Four_Moons/macros/abilities.cfg:249
 msgid "waterhome"
 msgstr "waterhome"
 
-#: Era_of_Four_Moons/macros/abilities.cfg:233
-#: Era_of_Four_Moons/macros/abilities.cfg:236
+#: Era_of_Four_Moons/macros/abilities.cfg:248
+#: Era_of_Four_Moons/macros/abilities.cfg:251
 msgid ""
 "Waterhome:\n"
 "This unit will regenerate 3 hp when in deep or shallow water."
@@ -288,13 +303,13 @@ msgstr ""
 "Waterhome:\n"
 "This unit will regenerate 3 hp when in deep or shallow water."
 
-#: Era_of_Four_Moons/macros/abilities.cfg:250
-#: Era_of_Four_Moons/macros/abilities.cfg:253
+#: Era_of_Four_Moons/macros/abilities.cfg:265
+#: Era_of_Four_Moons/macros/abilities.cfg:268
 msgid "deserthome"
 msgstr "deserthome"
 
-#: Era_of_Four_Moons/macros/abilities.cfg:252
-#: Era_of_Four_Moons/macros/abilities.cfg:255
+#: Era_of_Four_Moons/macros/abilities.cfg:267
+#: Era_of_Four_Moons/macros/abilities.cfg:270
 msgid ""
 "Deserthome:\n"
 "This unit will regenerate 3 hp when in desert or sand."
@@ -302,12 +317,12 @@ msgstr ""
 "Deserthome:\n"
 "This unit will regenerate 3 hp when in desert or sand."
 
-#: Era_of_Four_Moons/macros/abilities.cfg:269
-#: Era_of_Four_Moons/macros/abilities.cfg:272
+#: Era_of_Four_Moons/macros/abilities.cfg:284
+#: Era_of_Four_Moons/macros/abilities.cfg:287
 msgid "mountainhome"
 msgstr "mountainhome"
 
-#: Era_of_Four_Moons/macros/abilities.cfg:271
+#: Era_of_Four_Moons/macros/abilities.cfg:286
 msgid ""
 "Mountainhome:\n"
 "This unit will regenerate 3 hp when on mountains."
@@ -315,7 +330,7 @@ msgstr ""
 "Mountainhome:\n"
 "This unit will regenerate 3 hp when on mountains."
 
-#: Era_of_Four_Moons/macros/abilities.cfg:274
+#: Era_of_Four_Moons/macros/abilities.cfg:289
 msgid ""
 "Mountainhome:\n"
 "This unit will regenerate 3 hp when in mountains."
@@ -323,11 +338,11 @@ msgstr ""
 "Mountainhome:\n"
 "This unit will regenerate 3 hp when in mountains."
 
-#: Era_of_Four_Moons/macros/abilities.cfg:284
+#: Era_of_Four_Moons/macros/abilities.cfg:299
 msgid "inspire"
 msgstr "inspire"
 
-#: Era_of_Four_Moons/macros/abilities.cfg:288
+#: Era_of_Four_Moons/macros/abilities.cfg:303
 msgid ""
 "Inspire:\n"
 "This unit can inspire friendly units that are next to it, making them fight "
@@ -346,12 +361,12 @@ msgstr ""
 #. [dummy]: id=ability_shifter
 #: Era_of_Four_Moons/macros/shifter.cfg:6
 #: Era_of_Four_Moons/macros/shifter.cfg:7
-#: Era_of_Four_Moons/macros/abilities.cfg:405
-#: Era_of_Four_Moons/macros/abilities.cfg:406
+#: Era_of_Four_Moons/macros/abilities.cfg:420
+#: Era_of_Four_Moons/macros/abilities.cfg:421
 msgid "shifter"
 msgstr "shifter"
 
-#: Era_of_Four_Moons/macros/abilities.cfg:413
+#: Era_of_Four_Moons/macros/abilities.cfg:428
 msgid ""
 "This unit changes form based on what terrain he is standing on.\n"
 "Villages/Castles: Human\n"
@@ -438,8 +453,8 @@ msgstr ""
 "and already armed they will bravely defend their people."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Dalefolk/a1_Miner.cfg:29
 #: Era_of_Four_Moons/units/Dalefolk/a2_Foreman.cfg:34
+#: Era_of_Four_Moons/units/Dalefolk/a1_Miner.cfg:29
 #: Era_of_Four_Moons/units/Dalefolk/a2_Delver.cfg:31
 msgid "pick"
 msgstr "pick"
@@ -497,28 +512,29 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Era_of_Four_Moons/units/Dalefolk/b1_Herder.cfg:30
-#: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:31
+#: Era_of_Four_Moons/units/Dalefolk/b2_Mountaineer.cfg:31
 msgid "club"
 msgstr "club"
 
 #. [attack]: type=impact
 #: Era_of_Four_Moons/units/Dalefolk/b1_Herder.cfg:39
-#: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:40
+#: Era_of_Four_Moons/units/Dalefolk/b2_Mountaineer.cfg:40
 msgid "sling"
 msgstr "sling"
 
-#. [unit_type]: id=EFM_MountainMan, race=EFMdalefolk
-#: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:5
-msgid "Mountain Man"
-msgstr "Mountain Man"
+#. [unit_type]: id=EFM_Mountaineer, race=EFMdalefolk
+#: Era_of_Four_Moons/units/Dalefolk/b2_Mountaineer.cfg:5
+msgid "Mountaineer"
+msgstr "Mountaineer"
 
-#. [unit_type]: id=EFM_MountainMan, race=EFMdalefolk
-#: Era_of_Four_Moons/units/Dalefolk/b2_MountainMan.cfg:19
+#. [unit_type]: id=EFM_Mountaineer, race=EFMdalefolk
+#: Era_of_Four_Moons/units/Dalefolk/b2_Mountaineer.cfg:19
+#, fuzzy
 msgid ""
-"Occasionally after a former mountaineer has grown old enough to be relieved "
-"of shepherd duties he will head into the mountains to make his own way. "
-"These mavericks are however still loyal to their people and will return to "
-"defend them."
+"Occasionally after a former herder has grown old enough to be relieved of "
+"shepherd duties he will head into the mountains to make his own way. These "
+"mavericks are however still loyal to their people and will return to defend "
+"them."
 msgstr ""
 "Occasionally after a former mountaineer has grown old enough to be relieved "
 "of shepherd duties he will head into the mountains to make his own way. "
@@ -552,9 +568,9 @@ msgstr ""
 "their form is determined by their landscape."
 
 #. [attack]: type=impact
+#: Era_of_Four_Moons/units/Pygmies/a2_Stinger.cfg:30
 #: Era_of_Four_Moons/units/Pygmies/a0_Knat.cfg:29
 #: Era_of_Four_Moons/units/Pygmies/a1_Fly.cfg:29
-#: Era_of_Four_Moons/units/Pygmies/a2_Stinger.cfg:30
 #: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:37
 msgid "fist"
 msgstr "fist"
@@ -600,11 +616,14 @@ msgid "The Beaver form is a powerful aquatic fighter."
 msgstr "The Beaver form is a powerful aquatic fighter."
 
 #. [attack]: type=blade
+#: Era_of_Four_Moons/units/Darklanders/d2_LeopardRider.cfg:34
+#: Era_of_Four_Moons/units/Darklanders/f3_Vengence.cfg:44
+#: Era_of_Four_Moons/units/Darklanders/d1_JaguarRider.cfg:33
+#: Era_of_Four_Moons/units/Darklanders/f4_Judgement.cfg:45
+#: Era_of_Four_Moons/units/Darklanders/d2_PantherRider.cfg:38
 #: Era_of_Four_Moons/units/Dalefolk/f1_Mynah.cfg:26
 #: Era_of_Four_Moons/units/Dalefolk/f0_Raven.cfg:25
 #: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:184
-#: Era_of_Four_Moons/units/Darklanders/f3_Vengence.cfg:44
-#: Era_of_Four_Moons/units/Darklanders/f4_Judgement.cfg:45
 msgid "claws"
 msgstr "claws"
 
@@ -617,8 +636,8 @@ msgid "The wolf form is a swift and cunning hunter."
 msgstr "The wolf form is a swift and cunning hunter."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Pygmies/e1_Crocodile.cfg:25
 #: Era_of_Four_Moons/units/Pygmies/e2_GrandCrocodile.cfg:26
+#: Era_of_Four_Moons/units/Pygmies/e1_Crocodile.cfg:25
 #: Era_of_Four_Moons/units/Dalefolk/c1_Shifter.cfg:229
 msgid "teeth"
 msgstr "teeth"
@@ -662,12 +681,12 @@ msgstr ""
 
 #. [attack]: type=cold
 #. [attack]: type=fire
-#: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:32
-#: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:44
 #: Era_of_Four_Moons/units/Dalefolk/d2_Mediator.cfg:31
 #: Era_of_Four_Moons/units/Dalefolk/d2_Mediator.cfg:43
-#: Era_of_Four_Moons/units/Dalefolk/d2_Beacon.cfg:32
 #: Era_of_Four_Moons/units/Dalefolk/d1_Channeler.cfg:31
+#: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:32
+#: Era_of_Four_Moons/units/Dalefolk/d3_Conduit.cfg:44
+#: Era_of_Four_Moons/units/Dalefolk/d2_Beacon.cfg:32
 msgid "touch"
 msgstr "touch"
 
@@ -745,48 +764,48 @@ msgstr ""
 "go boom."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Highlanders/e2_Warlock.cfg:38
-#: Era_of_Four_Moons/units/Highlanders/b2_Prowler.cfg:32
-#: Era_of_Four_Moons/units/Highlanders/b1_Hunter.cfg:32
-#: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:33
-#: Era_of_Four_Moons/units/Highlanders/e3_SpirtWielder.cfg:39
-#: Era_of_Four_Moons/units/Highlanders/e2_Shaman.cfg:38
-#: Era_of_Four_Moons/units/Highlanders/e1_WitchDoctor.cfg:38
-#: Era_of_Four_Moons/units/Pygmies/b2_Charmer.cfg:30
-#: Era_of_Four_Moons/units/Pygmies/f2_Wyrd.cfg:30
-#: Era_of_Four_Moons/units/Pygmies/f3_LizardEye.cfg:30
-#: Era_of_Four_Moons/units/Pygmies/a2_Mudfoot.cfg:35
-#: Era_of_Four_Moons/units/Pygmies/f1_SwampWitch.cfg:30
-#: Era_of_Four_Moons/units/Pygmies/c1_Puma.cfg:30
+#: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/e2_Doctor.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:26
+#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:26
+#: Era_of_Four_Moons/units/Whites/b0_BowGirl.cfg:26
+#: Era_of_Four_Moons/units/Whites/b2_Huntress.cfg:31
+#: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:27
+#: Era_of_Four_Moons/units/Whites/b1_Stormchild.cfg:26
+#: Era_of_Four_Moons/units/Whites/b1_Keeper.cfg:26
+#: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:26
+#: Era_of_Four_Moons/units/Pygmies/c2_Lynx.cfg:30
 #: Era_of_Four_Moons/units/Pygmies/f2_ToadBreath.cfg:29
 #: Era_of_Four_Moons/units/Pygmies/f3_Sorceress.cfg:31
-#: Era_of_Four_Moons/units/Pygmies/c2_Lynx.cfg:30
+#: Era_of_Four_Moons/units/Pygmies/f2_Wyrd.cfg:30
+#: Era_of_Four_Moons/units/Pygmies/a2_Mudfoot.cfg:35
+#: Era_of_Four_Moons/units/Pygmies/c1_Puma.cfg:30
+#: Era_of_Four_Moons/units/Pygmies/f1_SwampWitch.cfg:30
+#: Era_of_Four_Moons/units/Pygmies/f3_LizardEye.cfg:30
 #: Era_of_Four_Moons/units/Pygmies/b1_Piper.cfg:29
+#: Era_of_Four_Moons/units/Pygmies/b2_Charmer.cfg:30
+#: Era_of_Four_Moons/units/Highlanders/e1_WitchDoctor.cfg:38
+#: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:33
+#: Era_of_Four_Moons/units/Highlanders/b2_Prowler.cfg:32
+#: Era_of_Four_Moons/units/Highlanders/e2_Shaman.cfg:38
+#: Era_of_Four_Moons/units/Highlanders/e2_Warlock.cfg:38
+#: Era_of_Four_Moons/units/Highlanders/b1_Hunter.cfg:32
+#: Era_of_Four_Moons/units/Highlanders/e3_SpirtWielder.cfg:39
+#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:25
+#: Era_of_Four_Moons/units/Dalefolk/g2_Botanist.cfg:30
 #: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:26
 #: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:25
 #: Era_of_Four_Moons/units/Dalefolk/g1_Herbalist.cfg:29
-#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:25
-#: Era_of_Four_Moons/units/Dalefolk/g2_Botanist.cfg:30
-#: Era_of_Four_Moons/units/Whites/b1_Keeper.cfg:26
-#: Era_of_Four_Moons/units/Whites/b0_BowGirl.cfg:26
-#: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:27
-#: Era_of_Four_Moons/units/Whites/b1_Stormchild.cfg:26
-#: Era_of_Four_Moons/units/Whites/b2_Huntress.cfg:31
-#: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:26
-#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:26
-#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:26
-#: Era_of_Four_Moons/units/SeaStates/e2_Doctor.cfg:29
-#: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:25
 msgid "knife"
 msgstr "knife"
 
 #. [attack]: type=fire
+#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:34
+#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:43
 #: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:35
 #: Era_of_Four_Moons/units/Dalefolk/e3_Battery.cfg:44
 #: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:34
 #: Era_of_Four_Moons/units/Dalefolk/e1_Rocketeer.cfg:43
-#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:34
-#: Era_of_Four_Moons/units/Dalefolk/e2_Bombadier.cfg:43
 msgid "rocket"
 msgstr "rocket"
 
@@ -915,12 +934,12 @@ msgstr ""
 "warrior when this time arrives."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Whites/b3_BowLady.cfg:32
-#: Era_of_Four_Moons/units/SeaStates/g3_Snapper.cfg:37
-#: Era_of_Four_Moons/units/Darklanders/a1_Tribesman.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/a3_Guard.cfg:31
 #: Era_of_Four_Moons/units/Darklanders/a2_Guerrilla.cfg:37
 #: Era_of_Four_Moons/units/Darklanders/a2_Militia.cfg:30
-#: Era_of_Four_Moons/units/Darklanders/a3_Guard.cfg:31
+#: Era_of_Four_Moons/units/Darklanders/a1_Tribesman.cfg:30
+#: Era_of_Four_Moons/units/SeaStates/g3_Snapper.cfg:37
+#: Era_of_Four_Moons/units/Whites/b3_BowLady.cfg:32
 msgid "sword"
 msgstr "sword"
 
@@ -939,19 +958,19 @@ msgstr ""
 "specifically in it become very effective at it."
 
 #. [attack]: type=pierce
-#: Era_of_Four_Moons/units/Highlanders/d3_WindWalker.cfg:42
-#: Era_of_Four_Moons/units/Highlanders/d2_Strider.cfg:41
+#: Era_of_Four_Moons/units/Darklanders/b1_Hurler.cfg:39
+#: Era_of_Four_Moons/units/Darklanders/b2_Stalker.cfg:39
+#: Era_of_Four_Moons/units/Darklanders/a2_Guerrilla.cfg:46
+#: Era_of_Four_Moons/units/Darklanders/b3_Whisper.cfg:44
+#: Era_of_Four_Moons/units/Darklanders/b2_Wasp.cfg:40
 #: Era_of_Four_Moons/units/Imperialists/a3_Praetorion.cfg:44
 #: Era_of_Four_Moons/units/Imperialists/a1_Legionnaire.cfg:43
-#: Era_of_Four_Moons/units/Imperialists/c2_Velite.cfg:48
 #: Era_of_Four_Moons/units/Imperialists/c1_Pelite.cfg:45
 #: Era_of_Four_Moons/units/Imperialists/c3_Equite.cfg:49
 #: Era_of_Four_Moons/units/Imperialists/a2_Stalwart.cfg:43
-#: Era_of_Four_Moons/units/Darklanders/a2_Guerrilla.cfg:46
-#: Era_of_Four_Moons/units/Darklanders/b1_Hurler.cfg:39
-#: Era_of_Four_Moons/units/Darklanders/b2_Stalker.cfg:39
-#: Era_of_Four_Moons/units/Darklanders/b3_Whisper.cfg:44
-#: Era_of_Four_Moons/units/Darklanders/b2_Wasp.cfg:40
+#: Era_of_Four_Moons/units/Imperialists/c2_Velite.cfg:48
+#: Era_of_Four_Moons/units/Highlanders/d3_WindWalker.cfg:42
+#: Era_of_Four_Moons/units/Highlanders/d2_Strider.cfg:41
 msgid "javelin"
 msgstr "javelin"
 
@@ -1012,29 +1031,29 @@ msgstr ""
 "have a distraction."
 
 #. [attack]: type=pierce
-#: Era_of_Four_Moons/units/Highlanders/c3_LionMaster.cfg:41
-#: Era_of_Four_Moons/units/Highlanders/c3_LionMavrick.cfg:40
-#: Era_of_Four_Moons/units/Highlanders/d3_WindWalker.cfg:33
-#: Era_of_Four_Moons/units/Highlanders/c2_LionAdept.cfg:40
-#: Era_of_Four_Moons/units/Highlanders/c1_LionWarrior.cfg:38
-#: Era_of_Four_Moons/units/Highlanders/c2_LionRenegade.cfg:39
-#: Era_of_Four_Moons/units/Highlanders/d1_Runner.cfg:32
-#: Era_of_Four_Moons/units/Highlanders/d2_Strider.cfg:32
+#: Era_of_Four_Moons/units/Darklanders/b1_Hurler.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/b2_Stalker.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/b3_Whisper.cfg:35
+#: Era_of_Four_Moons/units/Darklanders/b2_Wasp.cfg:31
+#: Era_of_Four_Moons/units/Imperialists/c1_Pelite.cfg:33
+#: Era_of_Four_Moons/units/Imperialists/c3_Equite.cfg:37
+#: Era_of_Four_Moons/units/Imperialists/f3_Avalanche.cfg:35
+#: Era_of_Four_Moons/units/Imperialists/c2_Velite.cfg:36
+#: Era_of_Four_Moons/units/Freemen/b2_Ensnarer.cfg:27
+#: Era_of_Four_Moons/units/Freemen/b1_Sandwalker.cfg:26
 #: Era_of_Four_Moons/units/Whites/c1_Storm_Guard.cfg:38
 #: Era_of_Four_Moons/units/Whites/c2_Heart_Guard.cfg:37
 #: Era_of_Four_Moons/units/Whites/c2_Heart_Guard.cfg:50
 #: Era_of_Four_Moons/units/Whites/c3_Soul_Guard.cfg:38
 #: Era_of_Four_Moons/units/Whites/c3_Soul_Guard.cfg:51
-#: Era_of_Four_Moons/units/Imperialists/c2_Velite.cfg:36
-#: Era_of_Four_Moons/units/Imperialists/f3_Avalanche.cfg:35
-#: Era_of_Four_Moons/units/Imperialists/c1_Pelite.cfg:33
-#: Era_of_Four_Moons/units/Imperialists/c3_Equite.cfg:37
-#: Era_of_Four_Moons/units/Darklanders/b1_Hurler.cfg:30
-#: Era_of_Four_Moons/units/Darklanders/b2_Stalker.cfg:30
-#: Era_of_Four_Moons/units/Darklanders/b3_Whisper.cfg:35
-#: Era_of_Four_Moons/units/Darklanders/b2_Wasp.cfg:31
-#: Era_of_Four_Moons/units/Freemen/b1_Sandwalker.cfg:26
-#: Era_of_Four_Moons/units/Freemen/b2_Ensnarer.cfg:27
+#: Era_of_Four_Moons/units/Highlanders/d1_Runner.cfg:32
+#: Era_of_Four_Moons/units/Highlanders/d3_WindWalker.cfg:33
+#: Era_of_Four_Moons/units/Highlanders/c3_LionMavrick.cfg:40
+#: Era_of_Four_Moons/units/Highlanders/c3_LionMaster.cfg:41
+#: Era_of_Four_Moons/units/Highlanders/c2_LionAdept.cfg:40
+#: Era_of_Four_Moons/units/Highlanders/c2_LionRenegade.cfg:39
+#: Era_of_Four_Moons/units/Highlanders/d2_Strider.cfg:32
+#: Era_of_Four_Moons/units/Highlanders/c1_LionWarrior.cfg:38
 msgid "spear"
 msgstr "spear"
 
@@ -1094,8 +1113,8 @@ msgstr ""
 "not overly skilled."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Darklanders/c2_BeastSkull.cfg:30
 #: Era_of_Four_Moons/units/Darklanders/c1_Beastman.cfg:29
+#: Era_of_Four_Moons/units/Darklanders/c2_BeastSkull.cfg:30
 msgid "great sword"
 msgstr "great sword"
 
@@ -1131,14 +1150,6 @@ msgstr ""
 "the domesticated hunting cats that the darklanders breed. These cats can "
 "move swiftly through the jungle and are fierce fighters."
 
-#. [attack]: type=blade
-#: Era_of_Four_Moons/units/Darklanders/d2_PantherRider.cfg:38
-#: Era_of_Four_Moons/units/Darklanders/d2_LeopardRider.cfg:34
-#: Era_of_Four_Moons/units/Darklanders/d2_CheetahRider.cfg:34
-#: Era_of_Four_Moons/units/Darklanders/d1_JaguarRider.cfg:33
-msgid "jaws"
-msgstr "jaws"
-
 #. [unit_type]: id=EFM_CheetahRider, race=EFMdarklander
 #: Era_of_Four_Moons/units/Darklanders/d2_CheetahRider.cfg:5
 msgid "Cheetah Rider"
@@ -1154,6 +1165,11 @@ msgstr ""
 "Cheetahs are the fastest known land animal in the world. The darklanders "
 "have managed to domesticate a few but only a strong child can ride one "
 "moving at full speed."
+
+#. [attack]: type=blade
+#: Era_of_Four_Moons/units/Darklanders/d2_CheetahRider.cfg:34
+msgid "jaws"
+msgstr "jaws"
 
 #. [unit_type]: id=EFM_LeopardRider, race=EFMdarklander
 #: Era_of_Four_Moons/units/Darklanders/d2_LeopardRider.cfg:5
@@ -1204,8 +1220,8 @@ msgstr ""
 "the viper will attempt to avoid their enemy till the poison does its work."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Darklanders/e2_Serpent.cfg:36
 #: Era_of_Four_Moons/units/Darklanders/e1_Viper.cfg:35
+#: Era_of_Four_Moons/units/Darklanders/e2_Serpent.cfg:36
 msgid "whip"
 msgstr "whip"
 
@@ -1246,10 +1262,10 @@ msgstr ""
 "like exposed to a horrible combination of fear, fatigue and excitement."
 
 #. [attack]: type=arcane
-#: Era_of_Four_Moons/units/Darklanders/f2_Wrath.cfg:35
-#: Era_of_Four_Moons/units/Darklanders/f1_Malice.cfg:35
 #: Era_of_Four_Moons/units/Darklanders/f3_Vengence.cfg:30
+#: Era_of_Four_Moons/units/Darklanders/f1_Malice.cfg:35
 #: Era_of_Four_Moons/units/Darklanders/f4_Judgement.cfg:31
+#: Era_of_Four_Moons/units/Darklanders/f2_Wrath.cfg:35
 msgid "fury"
 msgstr "fury"
 
@@ -1328,30 +1344,30 @@ msgstr ""
 "far too much show even in times of peace."
 
 #. [attack]: type=blade
+#: Era_of_Four_Moons/units/Freemen/b3_Immortal.cfg:30
+#: Era_of_Four_Moons/units/Freemen/a3_Caliph.cfg:32
+#: Era_of_Four_Moons/units/Freemen/c2_Mehariste.cfg:26
 #: Era_of_Four_Moons/units/Freemen/a1_Aristocrat.cfg:25
-#: Era_of_Four_Moons/units/Freemen/c3_Adventurer.cfg:45
+#: Era_of_Four_Moons/units/Freemen/b2_Dervish.cfg:29
+#: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:32
+#: Era_of_Four_Moons/units/Freemen/a3_Sultan.cfg:30
 #: Era_of_Four_Moons/units/Freemen/c2_SandRider.cfg:45
 #: Era_of_Four_Moons/units/Freemen/c1_CamelRider.cfg:26
 #: Era_of_Four_Moons/units/Freemen/a2_Vizier.cfg:29
-#: Era_of_Four_Moons/units/Freemen/a3_Sultan.cfg:30
-#: Era_of_Four_Moons/units/Freemen/c2_Mehariste.cfg:26
-#: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:32
-#: Era_of_Four_Moons/units/Freemen/e3_Sheik.cfg:33
-#: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:32
-#: Era_of_Four_Moons/units/Freemen/b3_Immortal.cfg:30
 #: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:27
-#: Era_of_Four_Moons/units/Freemen/b2_Dervish.cfg:29
+#: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:32
+#: Era_of_Four_Moons/units/Freemen/c3_Adventurer.cfg:45
+#: Era_of_Four_Moons/units/Freemen/e3_Sheik.cfg:33
 #: Era_of_Four_Moons/units/Freemen/a2_Amir.cfg:31
-#: Era_of_Four_Moons/units/Freemen/a3_Caliph.cfg:32
 msgid "scimitar"
 msgstr "scimitar"
 
 #. [attack]: type=pierce
-#: Era_of_Four_Moons/units/Freemen/a1_Aristocrat.cfg:34
-#: Era_of_Four_Moons/units/Freemen/a2_Vizier.cfg:38
-#: Era_of_Four_Moons/units/Freemen/a3_Sultan.cfg:39
-#: Era_of_Four_Moons/units/Freemen/a2_Amir.cfg:40
 #: Era_of_Four_Moons/units/Freemen/a3_Caliph.cfg:41
+#: Era_of_Four_Moons/units/Freemen/a1_Aristocrat.cfg:34
+#: Era_of_Four_Moons/units/Freemen/a3_Sultan.cfg:39
+#: Era_of_Four_Moons/units/Freemen/a2_Vizier.cfg:38
+#: Era_of_Four_Moons/units/Freemen/a2_Amir.cfg:40
 msgid "stiletto"
 msgstr "stiletto"
 
@@ -1450,12 +1466,12 @@ msgstr ""
 "those lands."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:41
-#: Era_of_Four_Moons/units/Freemen/e3_Sheik.cfg:42
-#: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:41
 #: Era_of_Four_Moons/units/Freemen/b3_Immortal.cfg:39
-#: Era_of_Four_Moons/units/Freemen/b1_Sandwalker.cfg:35
 #: Era_of_Four_Moons/units/Freemen/b2_Dervish.cfg:38
+#: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:41
+#: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:41
+#: Era_of_Four_Moons/units/Freemen/e3_Sheik.cfg:42
+#: Era_of_Four_Moons/units/Freemen/b1_Sandwalker.cfg:35
 msgid "chakram"
 msgstr "chakram"
 
@@ -1601,10 +1617,10 @@ msgstr ""
 "call them after said officer."
 
 #. [attack]: type=pierce
+#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:38
 #: Era_of_Four_Moons/units/Imperialists/d4_Legatus.cfg:49
 #: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:48
 #: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:48
-#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:38
 #: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:36
 msgid "crossbow"
 msgstr "crossbow"
@@ -1634,14 +1650,12 @@ msgstr ""
 "at risk anyway. They also serve a second calling as healers."
 
 #. [attack]: type=impact
-#: Era_of_Four_Moons/units/Imperialists/a2_ShockTroop.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/f3_Tank.cfg:35
 #: Era_of_Four_Moons/units/Imperialists/f1_Hardback.cfg:34
 #: Era_of_Four_Moons/units/Imperialists/f2_RockRider.cfg:34
-#: Era_of_Four_Moons/units/Imperialists/a3_Gargantaur.cfg:35
-#: Era_of_Four_Moons/units/Imperialists/f3_Tank.cfg:35
 #: Era_of_Four_Moons/units/Freemen/d2_Mufti.cfg:38
-#: Era_of_Four_Moons/units/Freemen/d3_Mullah.cfg:41
 #: Era_of_Four_Moons/units/Freemen/d1_Muezzin.cfg:38
+#: Era_of_Four_Moons/units/Freemen/d3_Mullah.cfg:41
 msgid "mace"
 msgstr "mace"
 
@@ -1753,22 +1767,22 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Four_Moons/units/Whites/d3_Guardian.cfg:39
-#: Era_of_Four_Moons/units/Whites/d1_Warder.cfg:34
-#: Era_of_Four_Moons/units/Whites/d2_Vigilante.cfg:34
 #: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:33
 #: Era_of_Four_Moons/units/Imperialists/b2_Flinger.cfg:33
 #: Era_of_Four_Moons/units/Imperialists/b1_Slinger.cfg:32
-#: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:26
 #: Era_of_Four_Moons/units/Freemen/g2_Howler.cfg:26
 #: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:26
+#: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:26
+#: Era_of_Four_Moons/units/Whites/d3_Guardian.cfg:39
+#: Era_of_Four_Moons/units/Whites/d2_Vigilante.cfg:34
+#: Era_of_Four_Moons/units/Whites/d1_Warder.cfg:34
 msgid "staff"
 msgstr "staff"
 
 #. [attack]: type=impact
-#: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:35
 #: Era_of_Four_Moons/units/Freemen/g2_Howler.cfg:35
 #: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:35
+#: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:35
 msgid "scream"
 msgstr ""
 
@@ -1816,16 +1830,16 @@ msgstr ""
 "but unproven warrior."
 
 #. [attack]: type=impact
-#: Era_of_Four_Moons/units/Highlanders/a2_Warrior.cfg:32
 #: Era_of_Four_Moons/units/Highlanders/a3_Chief.cfg:33
+#: Era_of_Four_Moons/units/Highlanders/a2_Warrior.cfg:32
 #: Era_of_Four_Moons/units/Highlanders/a1_Brave.cfg:32
 msgid "war club"
 msgstr "war club"
 
-#. [unit_type]: id=EFM_HighlanderWarrior, race=EFMhighlanders
 #. [unit_type]: id=EFM_WhiteWarrior, race=EFMwhite
-#: Era_of_Four_Moons/units/Highlanders/a2_Warrior.cfg:5
+#. [unit_type]: id=EFM_HighlanderWarrior, race=EFMhighlanders
 #: Era_of_Four_Moons/units/Whites/a1_Warrior.cfg:5
+#: Era_of_Four_Moons/units/Highlanders/a2_Warrior.cfg:5
 msgid "Warrior"
 msgstr "Warrior"
 
@@ -1867,19 +1881,19 @@ msgstr ""
 "plateau. These skills aid them in times of war."
 
 #. [attack]: type=pierce
-#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:50
-#: Era_of_Four_Moons/units/Highlanders/b2_Prowler.cfg:41
-#: Era_of_Four_Moons/units/Highlanders/g2_Hippopotamus.cfg:43
-#: Era_of_Four_Moons/units/Highlanders/b1_Hunter.cfg:41
-#: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:42
-#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:49
-#: Era_of_Four_Moons/units/Highlanders/g1_Hippo.cfg:42
-#: Era_of_Four_Moons/units/Whites/b1_Keeper.cfg:35
 #: Era_of_Four_Moons/units/Whites/b0_BowGirl.cfg:35
-#: Era_of_Four_Moons/units/Whites/c1_Storm_Guard.cfg:51
-#: Era_of_Four_Moons/units/Whites/c2_Heart_Guard.cfg:63
 #: Era_of_Four_Moons/units/Whites/b2_Huntress.cfg:40
+#: Era_of_Four_Moons/units/Whites/c1_Storm_Guard.cfg:51
+#: Era_of_Four_Moons/units/Whites/b1_Keeper.cfg:35
+#: Era_of_Four_Moons/units/Whites/c2_Heart_Guard.cfg:63
 #: Era_of_Four_Moons/units/Whites/c3_Soul_Guard.cfg:64
+#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:49
+#: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:42
+#: Era_of_Four_Moons/units/Highlanders/g2_Hippopotamus.cfg:43
+#: Era_of_Four_Moons/units/Highlanders/b2_Prowler.cfg:41
+#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:50
+#: Era_of_Four_Moons/units/Highlanders/g1_Hippo.cfg:42
+#: Era_of_Four_Moons/units/Highlanders/b1_Hunter.cfg:41
 msgid "bow"
 msgstr "bow"
 
@@ -2052,10 +2066,10 @@ msgstr ""
 "witch doctor is not a light threat."
 
 #. [attack]: type=arcane
+#: Era_of_Four_Moons/units/Highlanders/e1_WitchDoctor.cfg:47
+#: Era_of_Four_Moons/units/Highlanders/e2_Shaman.cfg:47
 #: Era_of_Four_Moons/units/Highlanders/e2_Warlock.cfg:47
 #: Era_of_Four_Moons/units/Highlanders/e3_SpirtWielder.cfg:48
-#: Era_of_Four_Moons/units/Highlanders/e2_Shaman.cfg:47
-#: Era_of_Four_Moons/units/Highlanders/e1_WitchDoctor.cfg:47
 msgid "curse"
 msgstr "curse"
 
@@ -2138,8 +2152,8 @@ msgstr ""
 "strikes on offense."
 
 #. [attack]: type=impact
-#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:38
 #: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:37
+#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:38
 msgid "crush"
 msgstr "crush"
 
@@ -2214,16 +2228,16 @@ msgstr ""
 "these in an open field is very difficult to break."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/SeaStates/b2_Veteran_Bowman.cfg:29
-#: Era_of_Four_Moons/units/SeaStates/b1_CompositeBowman.cfg:29
-#: Era_of_Four_Moons/units/SeaStates/b3_Elite_Bowman.cfg:32
-#: Era_of_Four_Moons/units/Imperialists/a3_Praetorion.cfg:35
+#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:29
 #: Era_of_Four_Moons/units/Imperialists/d4_Legatus.cfg:40
 #: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:39
+#: Era_of_Four_Moons/units/Imperialists/a3_Praetorion.cfg:35
 #: Era_of_Four_Moons/units/Imperialists/a1_Legionnaire.cfg:34
-#: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:39
-#: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:29
 #: Era_of_Four_Moons/units/Imperialists/a2_Stalwart.cfg:34
+#: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:39
+#: Era_of_Four_Moons/units/SeaStates/b3_Elite_Bowman.cfg:32
+#: Era_of_Four_Moons/units/SeaStates/b1_CompositeBowman.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/b2_Veteran_Bowman.cfg:29
 msgid "short sword"
 msgstr "short sword"
 
@@ -2246,6 +2260,12 @@ msgstr ""
 "minds. Shock troops are legions specifically trained and equipped to break "
 "tough enemy units. The tactics employed leave them vulnerable to counter "
 "attacks."
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/Imperialists/a3_Gargantaur.cfg:35
+#: Era_of_Four_Moons/units/Imperialists/a2_ShockTroop.cfg:34
+msgid "maul"
+msgstr ""
 
 #. [unit_type]: id=EFM_Stalwart, race=EFMimperialists
 #: Era_of_Four_Moons/units/Imperialists/a2_Stalwart.cfg:5
@@ -2478,8 +2498,9 @@ msgid ""
 "conquered people were proud folk who would rather die in battle than be a "
 "servant for the rest of their lives. It is not unknown for free citizens to "
 "take the role too if they feel sufficiently disgraced. Note: Their attack "
-"reduces their targets current experience by the % of their current defense."
-"(Capped at 20 damage)"
+"reduces their targets current hitpoints by the % of their current defense."
+"(Capped at 20 damage) (Example: a thirty hitpoint unit standing on 50% "
+"defense terrain attacked by a sapper would take 15 damage)."
 msgstr ""
 "The sappers are all slaves who have been given the opportunity to die "
 "honorably. The legions rarely run short on volunteers as many of the "
@@ -2633,10 +2654,10 @@ msgstr ""
 "fight."
 
 #. [attack]: type=pierce
-#: Era_of_Four_Moons/units/Pygmies/a0_Knat.cfg:38
-#: Era_of_Four_Moons/units/Pygmies/a2_Mudfoot.cfg:47
-#: Era_of_Four_Moons/units/Pygmies/a1_Fly.cfg:38
 #: Era_of_Four_Moons/units/Pygmies/a2_Stinger.cfg:39
+#: Era_of_Four_Moons/units/Pygmies/a2_Mudfoot.cfg:47
+#: Era_of_Four_Moons/units/Pygmies/a0_Knat.cfg:38
+#: Era_of_Four_Moons/units/Pygmies/a1_Fly.cfg:38
 msgid "blow darts"
 msgstr "blow darts"
 
@@ -2719,8 +2740,8 @@ msgstr ""
 "attack."
 
 #. [attack]: type=insects
-#: Era_of_Four_Moons/units/Pygmies/b2_Charmer.cfg:39
 #: Era_of_Four_Moons/units/Pygmies/b1_Piper.cfg:38
+#: Era_of_Four_Moons/units/Pygmies/b2_Charmer.cfg:39
 msgid "swarm"
 msgstr "swarm"
 
@@ -2803,13 +2824,13 @@ msgstr ""
 "wield full sized sabers."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Pygmies/c3_SaberCat.cfg:31
+#: Era_of_Four_Moons/units/SeaStates/d1_Rider.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/d2_Raider.cfg:25
 #: Era_of_Four_Moons/units/SeaStates/d3_Cataphract.cfg:31
 #: Era_of_Four_Moons/units/SeaStates/c3_Clibanarii.cfg:31
-#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:25
 #: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:25
-#: Era_of_Four_Moons/units/SeaStates/d2_Raider.cfg:25
-#: Era_of_Four_Moons/units/SeaStates/d1_Rider.cfg:25
+#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:25
+#: Era_of_Four_Moons/units/Pygmies/c3_SaberCat.cfg:31
 msgid "saber"
 msgstr "saber"
 
@@ -2866,11 +2887,11 @@ msgstr ""
 "as weapons."
 
 #. [attack]: type=arcane
-#: Era_of_Four_Moons/units/Pygmies/f2_Wyrd.cfg:39
-#: Era_of_Four_Moons/units/Pygmies/f3_LizardEye.cfg:39
-#: Era_of_Four_Moons/units/Pygmies/f1_SwampWitch.cfg:39
 #: Era_of_Four_Moons/units/Pygmies/f2_ToadBreath.cfg:38
 #: Era_of_Four_Moons/units/Pygmies/f3_Sorceress.cfg:40
+#: Era_of_Four_Moons/units/Pygmies/f2_Wyrd.cfg:39
+#: Era_of_Four_Moons/units/Pygmies/f1_SwampWitch.cfg:39
+#: Era_of_Four_Moons/units/Pygmies/f3_LizardEye.cfg:39
 msgid "jida"
 msgstr "jida"
 
@@ -3015,16 +3036,16 @@ msgstr ""
 "land which is a tangled snarl of hills and rivers along the ocean cost."
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Whites/a2_HouseCarl.cfg:25
-#: Era_of_Four_Moons/units/Whites/e1_Scout.cfg:25
-#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:26
-#: Era_of_Four_Moons/units/Whites/a1_Warrior.cfg:25
-#: Era_of_Four_Moons/units/Whites/a3_Thane.cfg:26
-#: Era_of_Four_Moons/units/SeaStates/a1_Regimenteer.cfg:29
-#: Era_of_Four_Moons/units/SeaStates/a2_Retainer.cfg:29
-#: Era_of_Four_Moons/units/SeaStates/a3_HouseGuard.cfg:32
 #: Era_of_Four_Moons/units/SeaStates/a3_MerchantLord.cfg:34
+#: Era_of_Four_Moons/units/SeaStates/a1_Regimenteer.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/a3_HouseGuard.cfg:32
 #: Era_of_Four_Moons/units/SeaStates/a2_GuildOfficer.cfg:33
+#: Era_of_Four_Moons/units/SeaStates/a2_Retainer.cfg:29
+#: Era_of_Four_Moons/units/Whites/a2_HouseCarl.cfg:25
+#: Era_of_Four_Moons/units/Whites/a3_Thane.cfg:26
+#: Era_of_Four_Moons/units/Whites/e1_Scout.cfg:25
+#: Era_of_Four_Moons/units/Whites/a1_Warrior.cfg:25
+#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:26
 msgid "axe"
 msgstr "axe"
 
@@ -3123,12 +3144,12 @@ msgstr ""
 "archer regiments of the sea states have become a force to be feared."
 
 #. [attack]: type=pierce
-#: Era_of_Four_Moons/units/SeaStates/b2_Veteran_Bowman.cfg:38
-#: Era_of_Four_Moons/units/SeaStates/c3_Clibanarii.cfg:40
-#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:34
-#: Era_of_Four_Moons/units/SeaStates/b1_CompositeBowman.cfg:38
-#: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:34
 #: Era_of_Four_Moons/units/SeaStates/b3_Elite_Bowman.cfg:41
+#: Era_of_Four_Moons/units/SeaStates/c3_Clibanarii.cfg:40
+#: Era_of_Four_Moons/units/SeaStates/c2_Sagiharii.cfg:34
+#: Era_of_Four_Moons/units/SeaStates/b1_CompositeBowman.cfg:38
+#: Era_of_Four_Moons/units/SeaStates/c1_HorseArcher.cfg:34
+#: Era_of_Four_Moons/units/SeaStates/b2_Veteran_Bowman.cfg:38
 msgid "compound bow"
 msgstr "compound bow"
 
@@ -3218,10 +3239,10 @@ msgstr "Rider"
 msgid "Mounted forces have long been an important auxiliary of the regiments."
 msgstr "Mounted forces have long been an important auxiliary of the regiments."
 
-#. [unit_type]: id=EFM_WhiteRaider, race=EFMwhite
 #. [unit_type]: id=EFM_Raider, race=EFMseastates
-#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:5
+#. [unit_type]: id=EFM_WhiteRaider, race=EFMwhite
 #: Era_of_Four_Moons/units/SeaStates/d2_Raider.cfg:5
+#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:5
 msgid "Raider"
 msgstr "Raider"
 
@@ -3267,15 +3288,15 @@ msgstr ""
 "regiments where their strange skills are in high demand."
 
 #. [attack]: type=arcane
-#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:35
 #: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:34
+#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:35
 msgid "poison canister"
 msgstr "poison canister"
 
 #. [attack]: type=arcane
-#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:47
-#: Era_of_Four_Moons/units/SeaStates/e2_Doctor.cfg:38
 #: Era_of_Four_Moons/units/SeaStates/e1_Alchemist.cfg:46
+#: Era_of_Four_Moons/units/SeaStates/e2_Doctor.cfg:38
+#: Era_of_Four_Moons/units/SeaStates/e2_Concoctionist.cfg:47
 msgid "paralysis powder"
 msgstr "paralysis powder"
 
@@ -3310,6 +3331,59 @@ msgstr ""
 "them. These are even more highly valued than their more aggressive brethren. "
 "They also take an oath which unfortunately forbids using poison on their "
 "enemies however it says nothing about paralysis powder."
+
+#. [unit_type]: id=EFM_Loyalist, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/f1_Loyalist.cfg:5
+#, fuzzy
+msgid "Loyalist"
+msgstr "Ballista"
+
+#. [unit_type]: id=EFM_Loyalist, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/f1_Loyalist.cfg:18
+msgid ""
+"True loyalty is a hard thing to come by in the Sea States but most "
+"successful Lords have a few whom either through personal charisma or by "
+"conditioning since childhood they can rely on to serve them faithfully out "
+"of personal motivation. Depending on the lord these may serve as soldiers, "
+"personal guards, or as enforcers who answer to no guild."
+msgstr ""
+
+#. [attack]: type=impact
+#: Era_of_Four_Moons/units/SeaStates/f1_Loyalist.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/f2_Vassal.cfg:29
+#: Era_of_Four_Moons/units/SeaStates/f3_Liegeman.cfg:29
+msgid "hammer"
+msgstr ""
+
+#. [unit_type]: id=EFM_Vassal, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/f2_Vassal.cfg:5
+msgid "Vassal"
+msgstr ""
+
+#. [unit_type]: id=EFM_Vassal, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/f2_Vassal.cfg:18
+msgid ""
+"It is generally considered advisable among merchant to constantly reward "
+"loyalty. Vassals enjoy a few privileges that ordinary hirelings do not but "
+"you can still expect to see them on the battlefield fighting for their "
+"master."
+msgstr ""
+
+#. [unit_type]: id=EFM_Liegeman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/f3_Liegeman.cfg:5
+msgid "Liegeman"
+msgstr ""
+
+#. [unit_type]: id=EFM_Liegeman, race=EFMseastates
+#: Era_of_Four_Moons/units/SeaStates/f3_Liegeman.cfg:18
+msgid ""
+"Many have a hard time understanding the loyalty of liegemen to their lords "
+"as they are frequently almost as powerful in their own right from "
+"accumulated rewards and opportunities. The liegemen may not understand it "
+"themselves but the apparently the habit is hard to kick for more often than "
+"not they will abandon what they are doing to aid their old masters on the "
+"battlefield."
+msgstr ""
 
 #. [unit_type]: id=EFM_Boatsman, race=EFMseastates
 #: Era_of_Four_Moons/units/SeaStates/g1_Boatman.cfg:5
@@ -3383,10 +3457,10 @@ msgstr ""
 
 #. [attack]: type=blade
 #: Era_of_Four_Moons/units/Whites/a2_HouseCarl.cfg:35
-#: Era_of_Four_Moons/units/Whites/e1_Scout.cfg:34
-#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:35
-#: Era_of_Four_Moons/units/Whites/a1_Warrior.cfg:34
 #: Era_of_Four_Moons/units/Whites/a3_Thane.cfg:36
+#: Era_of_Four_Moons/units/Whites/e1_Scout.cfg:34
+#: Era_of_Four_Moons/units/Whites/a1_Warrior.cfg:34
+#: Era_of_Four_Moons/units/Whites/e2_Raider.cfg:35
 msgid "hatchet"
 msgstr "hatchet"
 
@@ -3479,10 +3553,10 @@ msgstr ""
 "will encounter far more 'storm children' than true storm witches."
 
 #. [attack]: type=fire
+#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:35
 #: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:36
 #: Era_of_Four_Moons/units/Whites/b1_Stormchild.cfg:35
 #: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:35
-#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:35
 msgid "lightning"
 msgstr "lightning"
 
@@ -3517,9 +3591,9 @@ msgstr ""
 "sudden blizzards which devastate regions."
 
 #. [attack]: type=cold
+#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:47
 #: Era_of_Four_Moons/units/Whites/b4_StormQueen.cfg:48
 #: Era_of_Four_Moons/units/Whites/b3_StormLady.cfg:47
-#: Era_of_Four_Moons/units/Whites/b2_Stormwitch.cfg:47
 msgid "blizzard"
 msgstr "blizzard"
 
@@ -4002,8 +4076,8 @@ msgstr ""
 "them live in the desert as nomads and owe little allegiance to anything "
 "other than family."
 
+#~ msgid "Mountain Man"
+#~ msgstr "Mountain Man"
+
 #~ msgid "EoFM Ext + default"
 #~ msgstr "EoFM Ext + default"
-
-#~ msgid "Mountaineer"
-#~ msgstr "Mountaineer"
