@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Era_of_Four_Moons" default="copyAll">
+	<!-- <property file="build.properties"/> -->
+	<target name="copyAll">
+		<copy verbose="true" todir="${wesnoth.user.dir}/data/add-ons/Era_of_Four_Moons/">
+			<fileset dir="">
+				<!-- <exclude name=".project"/> -->
+				<exclude name="build.xml"/>
+				<exclude name="build.properties"/>
+			</fileset>
+		</copy>
+	</target>
+</project>
